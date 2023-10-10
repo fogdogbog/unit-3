@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        keyboard Scanner = new Scanner(System.in);
+            int eWeight= ;
+            int pWeight=;
+            string Name = pChoice;
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+}
