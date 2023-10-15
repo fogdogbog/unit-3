@@ -1,0 +1,30 @@
+import java.util.Scanner;
+class HelloWorld {
+    
+        public static void main(String[] args) {
+            Scanner keyboard = new Scanner(System.in);
+        System.out.println("Enter the car model number");
+            int carModel = keyboard.nextInt();
+        switch(carModel) {
+            case 117: 
+                System.out.println("Your car is defective. It must be repaired.");
+            break;
+            case 189: System.out.println("Your car is defective. It must be repaired.");
+            break;
+            case 199: System.out.println("Your car is defective. It must be repaired.");
+            break;
+            case 202: System.out.println("Your car is defective. It must be repaired.");
+            break;
+            case 221: System.out.println("Your car is defective. It must be repaired.");
+            break;
+            case 980: System.out.println("Your car is defective. It must be repaired.");
+            break;
+            default: System.out.println("Your car is not defective");
+            
+            
+            
+        }
+        
+        
+    }
+}
