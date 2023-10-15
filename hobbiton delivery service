@@ -1,6 +1,6 @@
-
 class HelloWorld {
-    import java.util.Scanner
+    import java.util.Scanner;
+    
         public static void main(String[] args) {
             Scanner keyboard = new Scanner(System.in);
             
@@ -13,6 +13,18 @@ class HelloWorld {
             System.out.println("Enter package height in centimeters: ");
                 int heightCent = keyboard.nextInt();
             
+            int boxSize = heightCent*widthCent*lengthCent;
+            
+            if (boxSize>100000) {
+                System.out.println("Too large");
+            } else if(weightKilo>27);
+            {
+                System.out.println("too heavy");
+            } else if(box>100000&&weightKilo>27) {
+                System.out.println("Too heavy and too large");
+            } else {
+                System.out.println("Accepted");
+            }
         
         
         
