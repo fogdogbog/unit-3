@@ -1,0 +1,24 @@
+import java.util.Scanner;
+import java.util.Random;
+class HelloWorld {
+    
+        public static void main(String[] args) {
+            Scanner keyboard = new Scanner(System.in);
+            Random rng = new Random();
+        
+        System.out.println("Im thinking of a number from 1 to 3");
+        System.out.println("Your guess: ");
+            int guess1 = keyboard.nextInt();
+            
+             int die1 = rng.nextInt(3) +1;
+             
+            if (die1==guess1) {
+                System.out.println("Youre right, that was my secret number");
+            } else {
+                System.out.println("Sorry but i was thinking of " + die1);
+            }
+            
+       
+       
+    }
+}
