@@ -1,0 +1,20 @@
+
+class HelloWorld {
+    import java.util.Scanner
+        public static void main(String[] args) {
+            Scanner keyboard = new Scanner(System.in);
+            
+            System.out.println("Entwr package weight in kilograms: ");
+                int weightKilo = keyboard.nextInt();
+            System.out.println("Enter package length in centimeters: ");
+                int lengthCent = keyboard.nextInt();
+            System.out.println("Enter package width in centimeters: ");
+                int widthCent = keyboard.nextInt();
+            System.out.println("Enter package height in centimeters: ");
+                int heightCent = keyboard.nextInt();
+            
+        
+        
+        
+    }
+}
