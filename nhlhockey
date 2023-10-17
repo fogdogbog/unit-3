@@ -1,0 +1,55 @@
+
+import java.util.Random;
+public class Main {
+    public static void main(String[] args) {
+       Random rng = new Random(); 
+        int rn = r.nextInt(1000) +1;
+        if (num >=1&& num <=185) {
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Buffalo Sabres")
+        }
+         else if (num >=186&& num <=320) {
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Ottawa Sentors")
+        }
+         if (num >=321&& num <=435) {
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Buffalo Sabres")
+        }
+        if (num >=436&& num <=530) {
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Buffalo Sabres")
+        }
+         if (num >=531&& num <=615) {
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Buffalo Sabres")
+        }
+         if (num >=616&& num <=690) {
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Buffalo Sabres")
+        }
+        if (num >=691&& num <=755) {
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Buffalo Sabres")
+        }
+         if (num >=756&& num <=815) {
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Buffalo Sabres")
+        }
+        if (num >=816&& num <=865) {
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Buffalo Sabres")
+        }
+        if (num >=866&& num <=900) {
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Buffalo Sabres")
+        }
+        if (num >=901&& num <=30) {
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Buffalo Sabres")
+        }
+       
+       
+       
+       
+        System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: " );
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+}
