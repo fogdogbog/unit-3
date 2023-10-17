@@ -5,44 +5,57 @@ public class Main {
        Random rng = new Random(); 
         int rn = r.nextInt(1000) +1;
         if (num >=1&& num <=185) {
-            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Buffalo Sabres")
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Buffalo Sabres");
         }
-         else if (num >=186&& num <=320) {
-            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Ottawa Sentors")
+         if (num>=186&&num<=320) {
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Ottawa Sentors");
         }
          if (num >=321&& num <=435) {
-            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Buffalo Sabres")
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Arizona Coyotes");
         }
         if (num >=436&& num <=530) {
-            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Buffalo Sabres")
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Montreal Canadiens");
         }
          if (num >=531&& num <=615) {
-            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Buffalo Sabres")
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Detroit RedWings");
         }
          if (num >=616&& num <=690) {
-            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Buffalo Sabres")
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Vancouver Canucks");
         }
         if (num >=691&& num <=755) {
-            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Buffalo Sabres")
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Chicago Blackhawks");
         }
          if (num >=756&& num <=815) {
-            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Buffalo Sabres")
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: New York Rangers");
         }
         if (num >=816&& num <=865) {
-            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Buffalo Sabres")
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Edmonton Oilers");
         }
         if (num >=866&& num <=900) {
-            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Buffalo Sabres")
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: New York Islanders");
         }
-        if (num >=901&& num <=30) {
-            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Buffalo Sabres")
+        if (num >=901&& num <=930) {
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Carolina Hurricanes");
+        }
+    }
+        if (num >=931&& num <=955) {
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Calgary Flames");
+        }
+}
+        if (num >=956&& num <=975) {
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Dallas Stars");
+        }
+        }
+        if (num >=976&& num <=990) {
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: St. Louis Blues");
+        }
+        }
+        if (num >=990&& num <=1000) {
+            System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: Florida Panthers");
         }
        
        
-       
-       
-        System.out.println("The 1st overall pick for the 2018 NHL draft goes to the: " );
-        
+     
         
         
         
