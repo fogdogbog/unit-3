@@ -1,0 +1,54 @@
+
+
+    import java.util.Scanner;
+    import java.util.Random;
+public class ThreeCardMonte {
+    
+    public static void main(String[] args) {
+        Scanner keyboard = new Scanner(System.in);
+        Random rng = new Random();
+        
+        System.out.println("You slide up to Fast Eddie's card table and plop down your cash.\n"
+                + "He glances at you out of the corner of his eye and starts shuffling.\n"
+                + "He lays down three cards.\n"   );
+        System.out.println("Which one is the ace?");
+        System.out.println("##\t##\t##");
+        System.out.println("##\t##\t##");
+        System.out.println("Your prediction: ");
+            int num1 = keyboard.nextInt();
+            int computerNum = rng.nextInt(3)+1;
+        if (computerNum==num1 && num1==1) {
+        System.out.println("You nailed it! Fast Eddie reluctantly hands over your winnings");
+        System.out.println("AA\t##\t##");
+        System.out.println("AA\t##\t##");
+        } else if (computerNum==num1&&num1==2) {
+        System.out.println("You nailed it! Fast Eddie reluctantly hands over your winnings");
+        System.out.println("##\tAA\t##");
+        System.out.println("##\tAA\t##");
+        } else if (computerNum==num1&&num1==3) {
+        System.out.println("You nailed it! Fast Eddie reluctantly hands over your winnings");
+        System.out.println("##\t##\tAA");
+        System.out.println("##\t##\tAA");
+        }
+        if ((computerNum!=num1) && (computerNum==1)) {
+        System.out.println("Ha! Fast Eddie wins again! The ace was card 1");
+        System.out.println("AA\t##\t##");
+        System.out.println("AA\t##\t##");
+        } else if (computerNum!=num1&&computerNum==2) {
+        System.out.println("Ha! Fast Eddie wins again! The ace was card 2");
+        System.out.println("##\tAA\t##");
+        System.out.println("##\tAA\t##");
+        } else if (computerNum!=num1&&computerNum==3) {
+        System.out.println("Ha! Fast Eddie wins again! The ace was card 3");
+        System.out.println("##\t##\tAA");
+        System.out.println("##\t##\tAA");
+        }
+        
+        
+        
+        
+        
+        
+    }
+    
+}
