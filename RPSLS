@@ -1,0 +1,51 @@
+
+import java.util.Random;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+       Random rng = new Random(); 
+       Scanner Keyboard= new Scanner(System.in);
+       System.out.println("1.Scissors\t2.Spock\t3.Paper\t4.Rock\t5.Lizard");
+       System.out.println("Choose one: ");
+            int pNum = Keyboard.nextInt();
+            int cNum= rng.nextInt(5)+1;
+            
+            if (cNum==1) {
+                System.out.println("Computer chose 1. Scissors");
+            }  else if (cNum==2) {
+                System.out.println("Computer chose 2.Spock");
+            } else if (cNum==3) {
+                System.out.println("Computer chose 3.Paper");
+            } else if (cNum==4) {
+                System.out.println("Computer chose 4.Rock");
+            } else if (cNum==5) {
+                System.out.println("Computer chose 5.Lizard");
+            }
+            
+            
+            
+            
+            
+     if (cNum - pNum == 0) {
+         System.out.println("You tie");
+     } else if (cNum - pNum == 1 || cNum - pNum == 2 ) {
+         System.out.println("You win");
+     } else if ( cNum - pNum == 3 || cNum - pNum == -1) {
+         System.out.println("You win");
+     } else if (cNum - pNum == -2 || cNum - pNum == -4)
+     {
+         System.out.println("You win");
+     }
+     
+     
+     
+     else {
+         System.out.println("You lose");
+     }
+       
+       
+       
+       
+       
+    }
+}
