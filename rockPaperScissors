@@ -7,10 +7,15 @@ public class Main {
        Scanner Keyboard= new Scanner(System.in);
        System.out.println("1.Rock\t2.Paper\t3.Scissors");
        System.out.println("Choose one: ");
-            int numChoosen = Keyboard.nextInt();
-            int computerNum= rng.nextInt(3)+1;
-       
-       
+            int pNum = Keyboard.nextInt();
+            int cNum= rng.nextInt(3)+1;
+       if (cNum - pNum==0) {
+           System.out.println("You tie");
+       } else if (cNum - pNum ==1 || cNum - pNum == -2) {
+           System.out.println("You win");
+       } else {
+           System.out.println("Unable to determine winner");
+       }
        
        
        
