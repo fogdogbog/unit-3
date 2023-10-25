@@ -26,7 +26,8 @@ public class KeepGuessing2 {
        
        
        
-       
+       // the variable tries is a sentinel variable because it makes the loop stop after 5 tries
+        // the users guess is a accumulator variable. the number can change and does not increase of decrease by a constant rate.
        
        
        
