@@ -1,0 +1,33 @@
+
+import java.util.Scanner;
+import java.util.Random;
+public class HighLowGuessingGame {
+    public static void main(String[] args) {
+       Scanner keyboard = new Scanner(System.in);
+       Random rng = new Random();
+      int tries = 0;
+       int ranNum= rng.nextInt(100)+1;
+      
+      System.out.println("Guess a number between 1 to 100");
+            int userGuess = keyboard.nextInt();
+            System.out.println(ranNum);
+      while (userGuess!=ranNum) {
+          tries= tries +1;
+          
+          if (userGuess>ranNum) {
+              System.out.println("Your guess was too high");
+              System.out.println("Guess again");
+              userGuess= keyboard.nextInt();
+          } else if (userGuess<ranNum) {
+              System.out.println("Your guess was too low");
+              System.out.println("Guess again");
+              userGuess = keyboard.nextInt();
+          }
+  
+      }
+      
+         System.out.println("Congratulations, you guessed correctly! it took you exactly " + tries + " tries");
+      
+    }
+    
+}
