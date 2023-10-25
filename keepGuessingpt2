@@ -1,0 +1,39 @@
+
+import java.util.Scanner;
+import java.util.Random;
+public class KeepGuessing2 {
+    public static void main(String[] args) {
+       //Program B
+       Scanner keyboard = new Scanner(System.in);
+       Random rng = new Random();
+       
+       int tries = 0;
+       
+        System.out.println("Guess the number from 1-10");
+            int userGuess = keyboard.nextInt();
+            int random = rng.nextInt(10)+1;
+       
+            while(userGuess!=random) {
+                tries=tries+1;
+                System.out.println("Hey thats not right lets try again: ");
+                userGuess = keyboard.nextInt();
+            }
+            if (tries>=5) {
+                System.out.println("Congrats you guessed the number in: " + tries);
+            } else {
+                System.out.println("Good try. you got it next time!");
+            }
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+    }
+    
+}
